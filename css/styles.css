@@ -1,0 +1,77 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	background-color: white;
+	color: #222;
+	line-height: 1.6;
+	padding: 2em;
+}
+
+h1 {
+	color: #333;
+}
+
+.mood-card {
+	max-width: 500px;
+	margin: 2em auto;
+	background: #fff;
+	padding: 1.5em;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	margin-top: 1em;
+	font-weight: bold;
+}
+
+select,
+button,
+textarea {
+	display: block;
+	width: 100%;
+	padding: 0.6em;
+	font-size: 1em;
+	margin-top: 0.5em;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button {
+	background-color: #517aa1;
+	width: 8rem;
+	color: white;
+	margin-top: 1.5em;
+	cursor: pointer;
+}
+
+button:hover,
+button:focus {
+	background-color: #517aa1;
+	outline: 2px solid #000;
+	outline-offset: 2px;
+}
+
+.suggestion {
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 2em;
+	color: #152a60;
+}
+
+img {
+	width: 20%;
+	display: block;
+	/* 	margin: 0 auto; */
+}
+
+.result {
+	display: none;
+	background: #f8f8f8;
+	border: 0.5rem solid #e3e3e3;
+	padding: 1rem;
+	text-align: start;
+	margin: 2rem auto;
+}

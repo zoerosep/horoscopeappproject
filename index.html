@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Zodiac Sign Form</h1>
+    <div class="sign-card">
+        <form class="sign-form" role="form" aria-labelledby="sign-form-title">
+    
+            <div>
+                <label for="sign">Choose your Zodiac sign:
+                </label>
+                <select id="sign" name="sign" required aria-required="true" aria-label="Select your sign">
+                    <option value="">Select your sign</option>
+                    <option value="Aries">Aries</option>
+                    <option value="Taurus">Taurus</option>
+                    <option value="Gemini">Gemini</option>
+                    <option value="Cancer">Cancer</option>
+                    <option value="Leo">Leo</option>
+                    <option value="Virgo">Virgo</option>
+                    <option value="Libra">Libra</option>
+                    <option value="Scorpio">Scorpio</option>
+                    <option value="Sagittarius">Sagittarius</option>
+                    <option value="Capricorn">Capricorn</option>
+                    <option value="Aquarius">Aquarius</option>
+                    <option value="Pisces">Pisces</option>
+                </select>
+            </div>
+    
+            <button type="submit" aria-label="Submit">
+                Submit
+            </button>
+        </form>
+    
+        <div class="result">
+            <img alt="">
+            <p class="sign-name"></p>
+            <p class="sign-dates"></p>
+            <p class="sign-horoscope"></p>
+    
+        </div>
+    </div>
+    <script src="js/custom.js"></script>
+</body>
+</html>
